@@ -1,0 +1,72 @@
+    /*Centra horizontalmente la imagen dentro de su contenedor*/
+    .image-right img {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    /*Alinea el parrafo con la imagen*/
+    .image-title,
+    .image-paragraph {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    /*Pone al imagen de fondo en el jumbatron */
+    .custom-jumbotron-image {
+        background-image: url('images/backgroundGPT.png');
+        background-size: cover;
+        color: white;
+        height: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*se utiliza el flexbox para centrar horizontal y verticalmente*/
+    .jumbotron {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*organiza de forma horizontal en una fila*/
+    .jumbotron .container .row {
+        display: flex;
+    }
+
+    /*para darle una distancia entre parrafos*/
+    .jumbotron .container .row .col {
+        flex: 1;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    /*personaliza el jumbatrom*/
+    .custom-jumbotron-blank {
+        background-color: white;
+        color: black;
+        height: 300px;
+    }
+    /*se utiliza el flexbox para centrar horizontal y verticalmente*/
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*establece los megapixeles entre las imagenes*/
+    .image-container {
+        margin-right: 50px;
+    }
+    /*pone el texto a la izquierda*/
+    .text-container {
+        text-align: left;
+    }
+    /*establece un margen superior*/
+    .image-paragraph {
+        margin-top: 15px;
+    }
+    /*se le da color al ultimo jumbatron*/
+    .jumbotron-custom-container {
+        background-color: #003B4A;
+    }
