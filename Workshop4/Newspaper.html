@@ -7,6 +7,31 @@
     <title>Periódico de Fútbol</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        h1 {
+            font-size: 50px;
+            color: blue;
+        }
+
+        p {
+            text-align: right;
+        }
+
+        h1.align-center {
+            text-align: center;
+            margin-left: 20px;
+        }
+
+        p.align-center {
+            text-align: center;
+        }
+
+        .styles {
+            text-align: center;
+        }
+
+        .styles .d-flex.justify-content-center {
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -16,9 +41,9 @@
             <div class="col-md-4">
                 <img src="Images/Uefa_Champions.gif" alt="Primera Imagen de Encabezado" class="img-fluid mb-3">
             </div>
-            <div class="col-md-4">
-                <h1>El Diario del Fútbol</h1>
-                <p>Las últimas noticias sobre fútbol</p>
+            <div class="col-md-4 styles">
+                <h1 class="align-center">El Diario del Fútbol</h1>
+                <p class="align-center">Las últimas noticias sobre fútbol</p>
             </div>
             <div class="col-md-4">
                 <img src="Images/Uefa_Champions.gif" alt="Segunda Imagen de Encabezado" class="img-fluid mb-3">
@@ -27,7 +52,7 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 styles">
                 <article>
                     <header>
                         <h2>Real Madrid gana la Liga de Campeones</h2>
@@ -48,7 +73,7 @@
                 </article>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 styles">
                 <article>
                     <header>
                         <h2>Messi firma contrato con el PSG</h2>
@@ -68,7 +93,7 @@
                 </article>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 styles">
                 <article>
                     <header>
                         <h2>Selección Española avanza en la Eurocopa</h2>
@@ -91,7 +116,7 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-4">
+            <div class="col-md-4 styles">
                 <section>
                     <h2>Anuncios</h2>
                     <p>Disfruta junto a tu equipo favorito con la cerveza del futbol...</p>
@@ -107,6 +132,7 @@
 </body>
 
 </html>
+
 
 
 
